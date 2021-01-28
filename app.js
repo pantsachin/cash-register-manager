@@ -1,6 +1,14 @@
 var bill = document.querySelector("#amount");
 var received = document.querySelector("#cash");
-var notesNumber = document.querySelector("#notes");
+var notesNumber2000 = document.querySelector("#notes2000");
+var notesNumber500 = document.querySelector("#notes500");
+var notesNumber100 = document.querySelector("#notes100");
+var notesNumber50 = document.querySelector("#notes50");
+var notesNumber20 = document.querySelector("#notes20");
+var notesNumber10 = document.querySelector("#notes10");
+var notesNumber5 = document.querySelector("#notes5");
+var notesNumber1 = document.querySelector("#notes1");
+
 var buttonPress = document.querySelector("#button");
 
 var amount = bill.value;
@@ -45,7 +53,14 @@ function clickHandler() {
   a = a - f * 1;
   bills.push(i);
 
-  notesNumber.innerText = bills;
+  notesNumber500.innerText = "The number of 2000 notes is: " + bills[0];
+  notesNumber500.innerText = "The number of 500 notes is: " + bills[1];
+  notesNumber100.innerText = "The number of 100 notes is: " + bills[2];
+  notesNumber50.innerText = "The number of 50 notes is: " + bills[3];
+  notesNumber20.innerText = "The number of 20 notes is: " + bills[4];
+  notesNumber10.innerText = "The number of 10 notes is: " + bills[5];
+  notesNumber5.innerText = "The number of 5 notes is: " + bills[6];
+  notesNumber1.innerText = "The number of 1 notes is: " + bills[7];
 }
 
 buttonPress.addEventListener("click", clickHandler);
