@@ -53,7 +53,7 @@ function clickHandler() {
   a = a - f * 1;
   bills.push(i);
 
-  notesNumber500.innerText = "The number of 2000 notes is: " + bills[0];
+  notesNumber2000.innerText = "The number of 2000 notes is: " + bills[0];
   notesNumber500.innerText = "The number of 500 notes is: " + bills[1];
   notesNumber100.innerText = "The number of 100 notes is: " + bills[2];
   notesNumber50.innerText = "The number of 50 notes is: " + bills[3];
