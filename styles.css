@@ -20,7 +20,7 @@ h1 {
 .formStyle {
   background-color: #d97706;
   padding: 20px;
-  width: 400px;
+  width: 350px;
   margin-bottom: 20px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -53,9 +53,9 @@ h2 {
   color: #d97706;
   font-size: 28px;
   font-weight: 500;
-  padding: 6px 24px;
-  margin-top: 15px;
-  margin-right: 60px;
+  padding: 6px 20px;
+  margin-top: 20px;
+  margin-right: 80px;
   text-decoration: none;
 }
 
