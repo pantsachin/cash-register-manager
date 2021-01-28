@@ -74,3 +74,22 @@ h2 {
 input:focus {
   outline: none;
 }
+
+/* To format the placeholder text color */
+::-webkit-input-placeholder {
+  color: #ecf0f1;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ecf0f1;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ecf0f1;
+}
+
+:-ms-input-placeholder {
+  color: #ecf0f1;
+}
