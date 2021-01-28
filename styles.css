@@ -1,5 +1,5 @@
 body {
-  background-color: #2ecc71;
+  background-color: #d97706;
   font-family: source-sans-pro, sans-serif;
 }
 
@@ -18,7 +18,7 @@ h1 {
 }
 
 .formStyle {
-  background-color: #2ecc71;
+  background-color: #d97706;
   padding: 20px;
   width: 400px;
   margin-bottom: 20px;
@@ -50,7 +50,7 @@ h2 {
   float: right;
   background-color: #ffffff;
   display: block;
-  color: #2ecc71;
+  color: #d97706;
   font-size: 28px;
   font-weight: 500;
   padding: 6px 24px;
@@ -60,7 +60,7 @@ h2 {
 }
 
 #button:hover {
-  background-color: #27ae60;
+  background-color: #d97706;
   color: #ffffff;
 }
 
